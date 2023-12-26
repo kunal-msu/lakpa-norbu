@@ -1,0 +1,138 @@
+/* Reset some default margin and padding for consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align:left;
+    font-size: 5px;
+    font-family:'Calibri', sans-serif;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+
+}
+
+
+
+/* Style for the upper division of the header */
+.upper-division {
+    padding: 0.1px;
+    background-color:rgb(233, 216, 89)
+
+}
+ /*alignment  of a   text inside a header */
+
+.p{
+    padding-top: 0px;
+    padding-bottom: 4px;
+    margin-left: 50%;
+}
+
+
+/* Style for the lower division of the header */
+.lower-division {
+    padding: 10px;
+    background-color: black;
+    text-align:center;
+    font-size: 15px;
+    font-family:'Calibri', sans-serif;
+   
+}
+sud-div{
+    height:2px;
+    width: 3px;
+    background-color: blanchedalmond;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #555;
+    padding: 10px;
+}
+
+/* Individual navigation item styles (customize as needed) */
+nav a {
+    color: #fff;
+    margin:  10px;
+    text-decoration: none;
+    margin-right: 25px;
+}
+.min{
+    height:4vh;
+    width:2px;
+}
+
+/* CSS ELEMENT FOR SEO SWEARCH ENGIN OPTIMIZATION*/
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 300px;
+    background: #f1f1f1;
+  }
+
+  form.example button {
+    float: left;
+    width: 40px;
+    padding: 10px;
+    background: #23dffc;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+
+  form.example button:hover {
+    background: #0b7dda;
+  }
+
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+
+
+
+
+
+body {
+    font-family:Arial sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logo {
+    max-width: 50px; /* Adjust the size of the logo as needed */
+    margin-right: 10px;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+ /*search engine  demo  logo */
