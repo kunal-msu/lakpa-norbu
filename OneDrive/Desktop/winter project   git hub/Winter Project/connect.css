@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    background: linear-gradient(to top,rgba(34, 21, 62, 0.7)50%, rgba(221, 149, 26, 0.7)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+/* top devision of a heading*/
+    .div1{
+        width: 22%;
+        background:  white;
+        background-position: center;
+        background-size: cover;
+        height: 6vh;   
+
+    }
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    
+}
+/*  element  used for   Down Division  of  heading */
+.icon{
+    width: 22%;
+    height:8vh;
+    float: left;
+    background-color: rgb(236, 63, 225);
+    
+}
+.logo {
+    color:white;
+    padding-left: 100px;
+    padding-top: 10px;
+    float: left;
+    margin-top: 10px;
+}
+.menu{
+    width:400px;
+    float: left;
+    height: 60px;
+}
+
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 100px;
+    
+}
+
+ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    color:rgb(231, 21, 21);
+    padding-left: 100px;
+    width: 30px;
+}
+    
+
+#btn{
+    float: left;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    background-color: crimson;
+    border-radius: 35%;
+    margin-left: 80px;
+    text-align: center;
+}
+
+ul li a{
+    text-decoration: none;
+    font-weight:bold;
+    transition: 0.4s ease-in;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 500px;
+    background: #f1f1f1;
+  }
+
+  form.example button {
+    float: left;
+    width: 40px;
+    padding: 10px;
+    background: #e8dfdf;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+
+  form.example button:hover {
+    background: #1e90ee;
+  }
+
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
