@@ -15,8 +15,16 @@ header {
 
 }
 
-
-
+ /* css element  for list */
+.cta-button a {
+    background-color: #61dafb;
+    color: white;
+    padding:0px;
+    margin :0px;
+    border-radius: 1px;
+    text-decoration: none;
+    float :right;
+  }
 /* Style for the upper division of the header */
 .upper-division {
     padding: 0.1px;
