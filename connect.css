@@ -173,4 +173,22 @@ margin: 0;
 padding: 0;
     }
 
+    #container {
+        display: flex;
+        padding-top: 40px;
+      }
+  
+      #leftDivision {
+        flex: 1;
+        border: none; /* No border color for the left division */
+        padding: 20px;
+      }
+  
+      #rightDivision {
+        flex: 1.06; /* 6% wider than the left division */
+        border: 1px solid black; /* Border for the right division */
+        padding: 20px;
+      }
+  
+      
    
