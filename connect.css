@@ -1,18 +1,23 @@
+ /*command  to  create responsive  web page*/
+@media only screen and (min-width: 1025px) {
+
 /* Reset some default margin and padding for consistency */
-body, h1, p {
+body, h1, title-logo {
     margin: 0;
     padding: 0;
 }
 
+
+
 /* Style for the header */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: yellow;
+    color: yellow;
     text-align:left;
-    font-size: 5px;
+    font-size: 0.3px;
     font-family:'Calibri', sans-serif;
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
-
+    margin-top :0px;
 }
 
  /* css element  for list */
@@ -35,18 +40,33 @@ header {
     border-radius: 6px;
     cursor: pointer;
    
-    margin-top: -3%;
+    margin-top: 8%;
     margin-left: 5px;
     margin-right: 10px;
     display: inline-block;
 }
 
 .sign_in {
+    display: inline-block;
+    position: absolute;
+    right:0;
+    top:10px;
     margin-right:4px;
-    float :right;
-    
-    
+   
+    /* float :right; */
+    /* padding-top:3%; */
 }
+
+.button-signin{
+    height:30px;
+   width:99px;
+   margin-top:1.5px;
+   font-size: 16px;
+   background-color:yellow;
+   color: black;
+
+}
+
 .button-container button:last-child {
     margin-right: 0; /* Remove the margin-right for the last button */
     margin-top: -3%;
@@ -68,7 +88,7 @@ header button:hover {
 .upper-division {
     padding-top: 0px;
     background-color:rgb(233, 216, 89)
-
+    
 }
  /*alignment  of a   text inside a header */
 
@@ -88,7 +108,7 @@ header button:hover {
     font-family:'Calibri', sans-serif;
    
 }
-sud-div{
+.sud-div{
     height:2px;
     width: 3px;
     background-color: blanchedalmond;
@@ -115,11 +135,13 @@ nav a {
 /* CSS ELEMENT FOR SEO SWEARCH ENGIN OPTIMIZATION*/
 form.example input[type=text] {
     padding: 10px;
-    font-size: 17px;
+    font-size: 12px;
     border: 1px solid grey;
     float: left;
     width: 300px;
     background: #f1f1f1;
+    margin-top:7px;
+    margin-left:4px
   }
 
   form.example button {
@@ -184,7 +206,9 @@ body {   /* body   section  */
           padding: 20px;
           text-align: center;
           }
-    p{
+
+
+         .text-style{
         font-family: 'Calibri',sans-serif; /* Replace "Your Font Family" with the desired font family */
             
             font-size: 1.3em; /* Adjust the text height by changing the font-size value */
@@ -204,3 +228,18 @@ body {   /* body   section  */
           max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
           height: auto;
         }
+
+        .title-logo{
+            position:absolute; /** when  used   it does   takes  or ocupy space  in a  divigion   alignment etc..*/
+            left:570px;
+            display: inline-block;
+        }
+
+        .title-block{
+            width:100%;
+            height:50px;
+            position: relative;
+            text-align: center;
+
+        }
+}
