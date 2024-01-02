@@ -1,0 +1,10 @@
+  to  install   boot strip     inside  vs code  we need  to enter  to  application  
+  then   at   the  search bar  you need  to   search bootstripe 5
+    then click on  the  install button   i wont  take  much longer  time  just  few seconds 
+    depeds on   strength of  your  net work 
+     once   bootstripe is installed   then   you  need  to learn   commands like
+
+     <!--bs5-nav-a ---->
+      <!--bs5-nav-compleate ----->
+      etc   this  command   retrives  the   code   that can be aplied in   html  through bootstripe 
+       therefore  it  also  saves   our time 
