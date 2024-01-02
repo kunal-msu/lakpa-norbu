@@ -321,4 +321,21 @@ body {   /* body   section  */
     }
 }
 
+@media (min-width: 360px) {
+	.button-center a {
+		left: 35%;
+	}
 }
+
+@media (min-width: 768px) {
+	.button-center a {
+		left: -25%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.button-center a {
+		left: 1%;
+	}
+}
+
