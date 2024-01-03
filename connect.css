@@ -1,328 +1,327 @@
  /*command  to  create responsive  web page*/
-@media only screen and (min-width: 1025px) {
+ @media only screen and (min-width: 1025px) {
 
-/* Reset some default margin and padding for consistency */
-body, h1, title-logo {
-    margin: 0;
-    padding: 0;
-
-}
-
-
-
-/* Style for the header */
-header {
-    background-color: yellow;
-    color: yellow;
-    text-align:left;
-    font-size: 0.3px;
-    font-family:'Calibri', sans-serif;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
-    margin-top :0px;
-}
-
- /* css element  for list */
-.cta-button a {
-    background-color: #61dafb;
-    color: white;
-    padding:0px;
-    margin :0px;
-    border-radius: 1px;
-    text-decoration: none;
-   
-  }
-
-
-  header button {               /* command and element  to   cfreate  button */
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 6px;
-    cursor: pointer;
-   
-    margin-top: 8%;
-    margin-left: 5px;
-    margin-right: 10px;
-    display: inline-block;
-}
-
-.sign_in {
-    display: inline-block;
-    position: absolute;
-    right:0;
-    top:10px;
-    margin-right:4px;
-   
-    /* float :right; */
-    /* padding-top:3%; */
-}
-
-.button-signin{
-    height:30px;
-   width:99px;
-   margin-top:1.5px;
-   font-size: 16px;
-   background-color:yellow;
-   color: black;
-
-}
-
-.button-container button:last-child {
-    margin-right: 0; /* Remove the margin-right for the last button */
-    margin-top: -3%;
-    margin-left: 3px; 
-    margin-right: 10px;
-    display: inline-block;
-}
-
-b{
-    height:10px;
-    width:15px;
-}
-
-
-header button:hover {
-    background-color: #0056b3;
-}
-/* Style for the upper division of the header */
-.upper-division {
-    padding-top: 0px;
-    background-color:rgb(233, 216, 89)
-    h
-}
- /*alignment  of a   text inside a header */
-
-.p{
-    padding-top: 0px;
-    padding-bottom: 4px;
-    margin-left: 50%;
-}
-
-
-/* Style for the lower division of the header */
-.lower-division {
-    padding: 10px;
-    background-color: black;
-    text-align:center;
-    font-size: 15px;
-    font-family:'Calibri', sans-serif;
-   
-}
-.sud-div{
-    height:2px;
-    width: 3px;
-    background-color: blanchedalmond;
-}
-
-/* Navigation styles */
-nav {
-    background-color: #555;
-    padding: 10px;
-}
-
-/* Individual navigation item styles (customize as needed) */
-nav a {
-    color: #fff;
-    margin:  10px;
-    text-decoration: none;
-    margin-right: 25px;
-}
-.min{
-    height:4vh;
-    width:2px;
-}
-
-/* CSS ELEMENT FOR SEO SWEARCH ENGIN OPTIMIZATION*/
-form.example input[type=text] {
-    padding: 10px;
-    font-size: 12px;
-    border: 1px solid grey;
-    float: left;
-    width: 300px;
-    background: #f1f1f1;
-    margin-top:7px;
-    margin-left:4px
-  }
-
-  form.example button {
-    float: left;
-    width: 40px;
-    padding: 10px;
-    background: #23dffc;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none; /* Prevent double borders */
-    cursor: pointer;
-  }
-
-  form.example button:hover {
-    background: #0b7dda;
-  }
-
-  form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-.search-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.logo {
-    max-width: 50px; /* Adjust the size of the logo as needed */
-    margin-right: 10px;
-}
-
-.search-input {
-    padding: 10px;
-    font-size: 16px;
-}
-
-.search-button {
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
- 
-body {   /* body   section  */
-    margin: 0;
-    padding: 0;
-        }
+    /* Reset some default margin and padding for consistency */
+    body, h1, title-logo {
+        margin: 0;
+        padding: 0;
     
-        #container {
-          display: flex;
-          padding-top: 3%;
-        }
-    
-        #leftDivision {
-          flex: 1;
-          border: none; /* No border color for the left division */
-          padding: 20px;
-          text-align: center;
-          width:30px;
-          }
-
-
-         .text-style{
-        font-family: 'Calibri',sans-serif; /* Replace "Your Font Family" with the desired font family */
-            
-            font-size: 1.3em; /* Adjust the text height by changing the font-size value */
-            text-decoration: underline;
-        }
-    .normal{
-        font-weight: normal;
-
     }
-        #rightDivision {
-          flex: 1.06; /* 6% wider than the left division */
-          border: 1px solid black; /* Border for the right division */
-          padding: 20px;
-          width:70px;
-        }
     
-        #rightDivision img {
-          max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
-          height: auto;
-        }
-
-        .title-logo{
-            position:absolute; /** when  used   it does   takes  or ocupy space  in a  divigion   alignment etc..*/
-            left:570px;
-            display: inline-block;
-        }
-
-        .title-block{
-            width:100%;
-            height:50px;
-            position: relative;
-            text-align: center;
-
-        }
-.gred{
-    height:60px;
-    width:100px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#login-dp{
-    min-width: 250px;
-    padding: 14px 14px 0;
-    overflow:hidden;
-    background-color:rgba(255,255,255,.8);
-}
-#login-dp .help-block{
-    font-size:12px    
-}
-#login-dp .bottom{
-    background-color:rgba(255,255,255,.8);
-    border-top:1px solid #ddd;
-    clear:both;
-    padding:14px;
-}
-#login-dp .social-buttons{
-    margin:12px 0    
-}
-#login-dp .social-buttons a{
-    width: 49%;
-}
-#login-dp .form-group {
-    margin-bottom: 10px;
-}
-.btn-fb{
-    color: #fff;
-    background-color:#3b5998;
-}
-.btn-fb:hover{
-    color: #fff;
-    background-color:#496ebc 
-}
-.btn-tw{
-    color: #fff;
-    background-color:#55acee;
-}
-.btn-tw:hover{
-    color: #fff;
-    background-color:#59b5fa;
-}
-@media(max-width:768px){
-    #login-dp{
-        background-color: inherit;
+    
+    
+    /* Style for the header */
+    header {
+        background-color: yellow;
+        color: yellow;
+        text-align:left;
+        font-size: 0.3px;
+        font-family:'Calibri', sans-serif;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        margin-top :0px;
+    }
+    
+     /* css element  for list */
+    .cta-button a {
+        background-color: #61dafb;
+        color: white;
+        padding:0px;
+        margin :0px;
+        border-radius: 1px;
+        text-decoration: none;
+       
+      }
+    
+    
+      header button {               /* command and element  to   cfreate  button */
+        background-color: #007bff;
         color: #fff;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 6px;
+        cursor: pointer;
+       
+        margin-top: 8%;
+        margin-left: 5px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    
+    .sign_in {
+        display: inline-block;
+        position: absolute;
+        right:0;
+        top:10px;
+        margin-right:4px;
+       
+        /* float :right; */
+        /* padding-top:3%; */
+    }
+    
+    .button-signin{
+        height:30px;
+       width:99px;
+       margin-top:1.5px;
+       font-size: 16px;
+       background-color:yellow;
+       color: black;
+    
+    }
+    
+    .button-container button:last-child {
+        margin-right: 0; /* Remove the margin-right for the last button */
+        margin-top: -3%;
+        margin-left: 3px; 
+        margin-right: 10px;
+        display: inline-block;
+    }
+    
+    b{
+        height:10px;
+        width:15px;
+    }
+    
+    
+    header button:hover {
+        background-color: #0056b3;
+    }
+    /* Style for the upper division of the header */
+    .upper-division {
+        padding-top: 0px;
+        background-color:rgb(233, 216, 89)
+        h
+    }
+     /*alignment  of a   text inside a header */
+    
+    .p{
+        padding-top: 0px;
+        padding-bottom: 4px;
+        margin-left: 50%;
+    }
+    
+    
+    /* Style for the lower division of the header */
+    .lower-division {
+        padding: 10px;
+        background-color: black;
+        text-align:center;
+        font-size: 15px;
+        font-family:'Calibri', sans-serif;
+       
+    }
+    .sud-div{
+        height:2px;
+        width: 3px;
+        background-color: blanchedalmond;
+    }
+    
+    /* Navigation styles */
+    nav {
+        background-color: #555;
+        padding: 10px;
+    }
+    
+    /* Individual navigation item styles (customize as needed) */
+    nav a {
+        color: #fff;
+        margin:  10px;
+        text-decoration: none;
+        margin-right: 25px;
+    }
+    .min{
+        height:4vh;
+        width:2px;
+    }
+    
+    /* CSS ELEMENT FOR SEO SWEARCH ENGIN OPTIMIZATION*/
+    form.example input[type=text] {
+        padding: 10px;
+        font-size: 12px;
+        border: 1px solid grey;
+        float: left;
+        width: 300px;
+        background: #f1f1f1;
+        margin-top:7px;
+        margin-left:4px
+      }
+    
+      form.example button {
+        float: left;
+        width: 40px;
+        padding: 10px;
+        background: #23dffc;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none; /* Prevent double borders */
+        cursor: pointer;
+      }
+    
+      form.example button:hover {
+        background: #0b7dda;
+      }
+    
+      form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    
+    .search-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    .logo {
+        max-width: 50px; /* Adjust the size of the logo as needed */
+        margin-right: 10px;
+    }
+    
+    .search-input {
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    .search-button {
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+     
+    body {   /* body   section  */
+        margin: 0;
+        padding: 0;
+            }
+        
+            #container {
+              display: flex;
+              padding-top: 3%;
+            }
+        
+            #leftDivision {
+              flex: 1;
+              border: none; /* No border color for the left division */
+              padding: 20px;
+              text-align: center;
+              width:30px;
+              }
+    
+    
+             .text-style{
+            font-family: 'Calibri',sans-serif; /* Replace "Your Font Family" with the desired font family */
+                
+                font-size: 1.3em; /* Adjust the text height by changing the font-size value */
+                text-decoration: underline;
+            }
+        .normal{
+            font-weight: normal;
+    
+        }
+            #rightDivision {
+              flex: 1.06; /* 6% wider than the left division */
+              border: 1px solid black; /* Border for the right division */
+              padding: 20px;
+              width:70px;
+            }
+        
+            #rightDivision img {
+              max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
+              height: auto;
+            }
+    
+            .title-logo{
+                position:absolute; /** when  used   it does   takes  or ocupy space  in a  divigion   alignment etc..*/
+                left:570px;
+                display: inline-block;
+            }
+    
+            .title-block{
+                width:100%;
+                height:50px;
+                position: relative;
+                text-align: center;
+    
+            }
+    .gred{
+        height:60px;
+        width:100px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #login-dp{
+        min-width: 250px;
+        padding: 14px 14px 0;
+        overflow:hidden;
+        background-color:rgba(255,255,255,.8);
+    }
+    #login-dp .help-block{
+        font-size:12px    
     }
     #login-dp .bottom{
-        background-color: inherit;
-        border-top:0 none;
+        background-color:rgba(255,255,255,.8);
+        border-top:1px solid #ddd;
+        clear:both;
+        padding:14px;
     }
-}
-img{
-    height :10px;   
-}
+    #login-dp .social-buttons{
+        margin:12px 0    
+    }
+    #login-dp .social-buttons a{
+        width: 49%;
+    }
+    #login-dp .form-group {
+        margin-bottom: 10px;
+    }
+    .btn-fb{
+        color: #fff;
+        background-color:#3b5998;
+    }
+    .btn-fb:hover{
+        color: #fff;
+        background-color:#496ebc 
+    }
+    .btn-tw{
+        color: #fff;
+        background-color:#55acee;
+    }
+    .btn-tw:hover{
+        color: #fff;
+        background-color:#59b5fa;
+    }
+    @media(max-width:768px){
+        #login-dp{
+            background-color: inherit;
+            color: #fff;
+        }
+        #login-dp .bottom{
+            background-color: inherit;
+            border-top:0 none;
+        }
+    }
 
-
-
+    
+    
+    
+    
