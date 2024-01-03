@@ -320,22 +320,9 @@ body {   /* body   section  */
         border-top:0 none;
     }
 }
-
-@media (min-width: 360px) {
-	.button-center a {
-		left: 35%;
-	}
+img{
+    height :10px;   
 }
 
-@media (min-width: 768px) {
-	.button-center a {
-		left: -25%;
-	}
-}
 
-@media (min-width: 1024px) {
-	.button-center a {
-		left: 1%;
-	}
-}
 
