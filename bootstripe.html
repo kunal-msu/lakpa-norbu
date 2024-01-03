@@ -124,11 +124,36 @@
       <div class="card-footer">
           <small class="text-muted">Last updated 3 mins ago</small>
           </div>
+            <style>
+              a{
+                position: relative;
+                font-size: 40px;
+                color: #333;
+                font-weight: 600;
+                text-decoration: none;
 
+              }
+                a:before{
+                  content: "";
+                  position: absolute;
+                  bottom: -2px;
+                  height: 6px;
+                  width: 0px;
+                  background: #4070f4;
+                  border-radius: 50px;
+                  transform: width 0.3s ease;
+
+                }
+                a:hover:before {
+                  width: 100%;
+                }
+            </style>
+              <a href="#">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </a>
 
           
 
-            <div class="card-body"><p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="card-body"><p class="card-text" >  <a href="#">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</a>
                  
                 <h5 class="card-title">Card title</h5>
               <img src="img1.png" class="card-img-top" alt="..." STYLE="padding-right:6px;" STYLE="padding-left:6px;">
