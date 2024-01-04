@@ -117,6 +117,38 @@
                                                                            <!----grid  card   implimentation--->
 <!----grid  card   implimentation--->
 
+<style>
+
+  a{                                                                      /* command add hover */
+    position: relative;
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+
+  }
+ a:before{
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      height: 6px;
+      width: 0px;
+      
+      border-radius: 50px;
+      transform: scaleX(1); 
+      text-decoration: underline;
+ }
+
+
+    a:hover {
+      width: 100%;
+      text-decoration: underline;                                       /* command  ot  underline hover */
+    }
+
+
+
+</style>
+
 <div class="row row-cols-1 row-cols-md-4 g-4" style="padding-top: 30px;" >
   <div class="col" >
     <div class="card h-100" style=" border-right: 2px solid black;">
@@ -124,39 +156,13 @@
       <div class="card-footer">
           <small class="text-muted">Last updated 3 mins ago</small>
           </div>
-            <style>
-              a{
-                position: relative;
-                font-size: 40px;
-                color: #333;
-                font-weight: 600;
-                text-decoration: none;
-
-              }
-                a:before{
-                  content: "";
-                  position: absolute;
-                  bottom: -2px;
-                  height: 6px;
-                  width: 0px;
-                  background: #4070f4;
-                  border-radius: 50px;
-                  transform: width 0.3s ease;
-
-                }
-                a:hover:before {
-                  width: 100%;
-                }
-            </style>
-              <a href="#">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </a>
-
+            
           
 
-            <div class="card-body"><p class="card-text" >  <a href="#">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</a>
+            <div class="card-body"><p class="card-text" >  <a href="#"  style="margin-bottom: 15px;">The Top Lyrics Of 2023 According To Genius Data</a>
                  
-                <h5 class="card-title">Card title</h5>
-              <img src="img1.png" class="card-img-top" alt="..." STYLE="padding-right:6px;" STYLE="padding-left:6px;">
+                <h5 class="card-title"  >Card title</h5>
+              <img src="img1.png" class="card-img-top" alt="..." >
                   
 
             </div>
@@ -177,7 +183,7 @@
 
             
 
-                    <div class="card-body"><p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="card-body"><p class="card-text"><a href="#">Looking Back At The Top Hip-Hop Producer Of 2021 On Genius</a>
                    
                         <h5 class="card-title">Card title</h5>
                     <img src="img2.png" class="card-img-top" alt="..." STYLE="padding-right:6px;" STYLE="padding-left:6px;">
@@ -197,7 +203,7 @@
 
             
 
-                    <div class="card-body"><p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="card-body"><p class="card-text"><a href="#">The Top Producers Of 2023 According To Genius Data</a>
                    
                         <h5 class="card-title">Card title</h5>
                     <img src="img3.png" class="card-img-top" alt="..." STYLE="padding-right:6px;" STYLE="padding-left:6px;">
@@ -217,7 +223,7 @@
 
             
 
-                    <div class="card-body"><p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="card-body"><p class="card-text"><a href="#">The Top Songs Of 2023 According To Genius Data</a>
                    
                         <h5 class="card-title">Card title</h5>
                     <img src="img4.png" class="card-img-top" alt="..." STYLE="padding-right:6px;" STYLE="padding-left:6px;">
@@ -248,7 +254,7 @@
             <img src="img5.avif" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">jffjgjdgf</div>
+              <p class="card-text"><a href="#">The Top Artists Of 2023 According To Genius Data</p></a></div>
             <div class="card-footer">
               <small class="text-muted">Last updated 3 mins ago</small>
             </div>
@@ -259,7 +265,7 @@
             <img src="img6.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><a href="#">The Top Artists Of 2023 According To Genius Data</p></a>
             </div>
             <div class="card-footer">
               <small class="text-muted">Last updated 3 mins ago</small>
@@ -271,7 +277,7 @@
             <img src="img7.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><a href="#">Read All The Lyrics To Conway The Machine & Wun Two’s New Album ‘Palermo’</a></p>
             </div>
             <div class="card-footer">
               <small class="text-muted">Last updated 3 mins ago</small>
@@ -280,10 +286,10 @@
         </div>
         <div class="col">
             <div class="card h-100">
-              <img src="img8.jpeg" class="card-img-top" alt="...">
+              <img src="img8.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><a href="#">What’s Up Next: Here’s Every Album Dropping In January</a></p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Last updated 3 mins ago</small>
@@ -299,7 +305,7 @@
                 <img src="img9.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><a href="#">Looking Back At The Top Hip-Hop Album Of 2021 On Genius</a>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">Last updated 3 mins ago</small>
@@ -311,7 +317,7 @@
                 <img src="img10.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><a href="#">Central Cee Takes A Victory Lap With New Song “Entrapreneur”</a>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">Last updated 3 mins ago</small>
@@ -323,7 +329,7 @@
                 <img src="img1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><a href="#">The Top Lyrics Of 2023 According To Genius Data</a>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">Last updated 3 mins ago</small>
@@ -335,7 +341,7 @@
                   <img src="img2.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><a href="">Looking Back At The Top Hip-Hop Producer Of 2021 On Genius</a>
                   </div>
                   <div class="card-footer">
                     <small class="text-muted">Last updated 3 mins ago</small>
@@ -352,7 +358,7 @@
         <img src="img11.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><a href="#">Looking Back At The Top Hip-Hop Song Of 2021 On Genius</a>
         </div>
         <div class="card-footer">
           <small class="text-muted">Last updated 3 mins ago</small>
@@ -364,7 +370,7 @@
         <img src="img12.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><a href="#"> Listen To The Top  Trends Songs Of  Anime 2023-2024 One -Pice</a></p>
         </div>
         <div class="card-footer">
           <small class="text-muted">Last updated 3 mins ago</small>
@@ -373,10 +379,10 @@
     </div>
     <div class="col">
       <div class="card h-100">
-        <img src="img13.jpeg" class="card-img-top" alt="...">
+        <img src="img16.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><a href="#">listen To The Top Songs Of2023-2024 Anime Naruto </p></a>
         </div>
         <div class="card-footer">
           <small class="text-muted">Last updated 3 mins ago</small>
@@ -385,10 +391,11 @@
     </div>
     <div class="col">
         <div class="card h-100">
-          <img src="img14.jpg" class="card-img-top" alt="...">
+          <img src="img4.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text">
+            <a href="#">  Looking Back At The Top Hip-Hop Producer Of 2021 On Genius</a>
           </div>
           <div class="card-footer">
             <small class="text-muted">Last updated 3 mins ago</small>
