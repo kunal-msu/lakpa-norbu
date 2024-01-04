@@ -321,7 +321,26 @@
         }
     }
 
-    
+    /* Add this CSS to your stylesheet or in a style tag in your HTML file */
+.your-text-class:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.custom-line {/* inserting  line inside a text*/
+        display: flex;
+    align-items: center;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #4070f4;
+    margin-left: 10px; /* Adjust as needed */
+}
+
     
     
     
