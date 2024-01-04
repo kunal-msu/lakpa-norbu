@@ -4,6 +4,8 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><head>
+<!--  command  to create   line  inside  a text -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
         <nav 
             class="nav justify-content-center  ">
@@ -101,7 +103,20 @@
 
     <div id="container">
         <div id="leftDivision">
-          <p><h1>NEWS------.</p>
+          <!--  -->
+          
+<div class="container mt-5">
+  <div class="row">
+      <div class="col-md-6">
+          <div class="custom-line">
+              <span>NEWS</span>
+              <div class="line"></div>
+          </div>
+      </div>
+  </div>
+</div>
+
+          <!--  -->
           <p >The Top Songs OF  2023</p>
           <p >According To Genious Data</h1></b> </p>
           <p class="normal">Ladies lead the way this year </p>
@@ -144,6 +159,19 @@
       width: 100%;
       text-decoration: underline;                                       /* command  ot  underline hover */
     }
+
+    
+.custom-line {/* inserting  line inside a text*/
+  display: flex;
+align-items: center;
+}
+
+.line {
+flex-grow: 1;
+height: 1px;
+background-color: #4070f4;
+margin-left: 10px; /* Adjust as needed */
+}
 
 
 
@@ -410,6 +438,20 @@
 </body>
 
 
+    
+        
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="custom-line">
+                <span>Your Text</span>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
