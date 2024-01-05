@@ -88,6 +88,7 @@
     /* Style for the upper division of the header */
     .upper-division {
         padding-top: 0px;
+        margin-right: 800px;
         background-color:rgb(233, 216, 89)
         h
     }
@@ -135,6 +136,7 @@
     
     /* CSS ELEMENT FOR SEO SWEARCH ENGIN OPTIMIZATION*/
     form.example input[type=text] {
+       
         padding: 10px;
         font-size: 12px;
         border: 1px solid grey;
@@ -160,19 +162,19 @@
       form.example button:hover {
         background: #0b7dda;
       }
-    
       form.example::after {
         content: "";
         clear: both;
-        display: table;
-      }
+        display: table;
+    }
     
     .search-container {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items:right;
+        justify-content: right;
         height: 100vh;
     }
+    
     
     .logo {
         max-width: 50px; /* Adjust the size of the logo as needed */
@@ -235,6 +237,7 @@
             .title-logo{
                 position:absolute; /** when  used   it does   takes  or ocupy space  in a  divigion   alignment etc..*/
                 left:570px;
+                margin-top: 40px;
                 display: inline-block;
             }
     
@@ -341,13 +344,17 @@
     margin-left: 10px; /* Adjust as needed */
 }
 
-.CHART{
-    float: right;
-padding-left:70px;
-    font-size: 40px;
-    padding-top: 50%;
+.text{
+    
+    font-size: 90px;
+   
 
 }
-    
-    
-    
+.div-3
+{
+    margin-top:18px;
+    margin-left: 18px;
+}    
+  .div-4{
+    margin-right: 18px;
+  } 
