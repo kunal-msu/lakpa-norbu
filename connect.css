@@ -245,15 +245,17 @@
                 height:50px;
                 position: relative;
                 text-align: center;
-    
-            }
-    .gred{
-        height:60px;
-        width:100px;
     }
     
     .long-div{
-           border-radius:black; margin-left: 12px; margin-right: 12px; padding-top: 8px; background-color: #1edbe9;height:70px;
+        
+        margin-left: 12px; margin-right: 12px; padding-top: 8px; background-color: #1edbe9;height:70px;
+        background-color: rgb(254, 255, 255);
+        /* Top, Right, Bottom (bold), Left */
+        border-style: solid; /*makes  the  border  solid or  bold  */
+        border-color: #fcfcfc #fcffff #b9b5b5 #f3fbfb; /* Top, Right, Bottom (color), Left */
+        border-radius: 15px; /* Adjust the value as needed */
+        
     }
     .row1{
 margin
