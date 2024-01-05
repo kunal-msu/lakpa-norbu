@@ -257,10 +257,8 @@
         border-radius: 15px; /* Adjust the value as needed */
         
     }
-    .row1{
-margin
-    }
     
+}
     
     
     
@@ -363,3 +361,14 @@ margin
   .div-4{
     margin-right: 18px;
   } 
+
+  .hover-effect{ 
+                 transition: background-color 0.3s; /* Add a smooth transition effect */
+height:10px;}
+
+        
+
+        .hover-effect:hover {
+            background-color: lightcoral; /* Change to your desired hover background color */
+            height: 21px;}
+  
