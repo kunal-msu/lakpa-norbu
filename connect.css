@@ -237,7 +237,6 @@
             .title-logo{
                 position:absolute; /** when  used   it does   takes  or ocupy space  in a  divigion   alignment etc..*/
                 left:570px;
-                margin-top: 40px;
                 display: inline-block;
             }
     
@@ -253,8 +252,12 @@
         width:100px;
     }
     
-    
-    
+    .long-div{
+           border-radius:black; margin-left: 12px; margin-right: 12px; padding-top: 8px; background-color: #1edbe9;height:70px;
+    }
+    .row1{
+margin
+    }
     
     
     
