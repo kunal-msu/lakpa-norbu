@@ -364,11 +364,49 @@
 
   .hover-effect{ 
                  transition: background-color 0.3s; /* Add a smooth transition effect */
-height:10px;}
+}
 
         
 
         .hover-effect:hover {
             background-color: lightcoral; /* Change to your desired hover background color */
-            height: 21px;}
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            }
   
+
+     
+.custom-line {                  /* inserting  line inside a text*/
+  display: flex;
+align-items: center;
+}
+
+.line {                         /* inserting  line inside a text*/
+flex-grow: 1;
+height: 1px;
+background-color: #080807;
+margin-left: 10px; /* Adjust as needed */
+}
+
+
+                /* creating css for  divigion in center,hover */
+.custom-box {
+
+    height:6px;
+    width: 140px; /* Set the desired width */
+    margin: auto; /* Center the div horizontally */
+    border: 2px solid #000; /* Initial border color (black) */
+    padding: 20px;
+    transition: border-color 0.3s; /* Add smooth transition for the border color */
+  }
+
+  .custom-box:hover {
+    border-color: #000; /* Change border color to black on hover */
+    background-color: #0b0808; /* Optional: Add a shaded background on hover */
+  }
+  .paragraph-padding{
+    margin-top: -9px; /* Set margin for the top */
+    margin-bottom: 5px; /* Set margin for the bottom */
+    }
