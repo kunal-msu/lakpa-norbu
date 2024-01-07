@@ -224,14 +224,15 @@
         }
             #rightDivision {
               flex: 1.06; /* 6% wider than the left division */
-              border: 1px solid black; /* Border for the right division */
+              border: 1px solid rgb(250, 244, 244); /* Border for the right division */
               padding: 20px;
               width:70px;
             }
         
-            #rightDivision img {
+#rightDivision img {
               max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
               height: auto;
+            
             }
     
             .title-logo{
@@ -249,19 +250,29 @@
     
     .long-div{
         
-        margin-left: 12px; margin-right: 12px; padding-top: 8px; background-color: #1edbe9;height:70px;
+        margin-left: 12px; margin-right: 12px; padding-top: 8px; background-color: #1edbe9;height:80px;
         background-color: rgb(254, 255, 255);
         /* Top, Right, Bottom (bold), Left */
         border-style: solid; /*makes  the  border  solid or  bold  */
         border-color: #fcfcfc #fcffff #b9b5b5 #f3fbfb; /* Top, Right, Bottom (color), Left */
-        border-radius: 15px; /* Adjust the value as needed */
+        
         
     }
     
 }
+/* adjusting  height  width of  */
+.img{ height: 90%;
+      width:17%;}
     
-    
-    
+.marg-div{
+    margin-left:-211px;
+
+}
+    .coll{
+        height:14px;
+        margin-right:0px 12px 0px 12px;
+        
+    }
     
     
     
@@ -410,3 +421,11 @@ margin-left: 10px; /* Adjust as needed */
     margin-top: -9px; /* Set margin for the top */
     margin-bottom: 5px; /* Set margin for the bottom */
     }
+
+
+
+
+    .serial-number {
+        font-size: 2em;
+        margin-right: 8px;
+      }
