@@ -60,7 +60,7 @@
               <div class="row">
                 <div class="col">
                   <div class="d-flex flex-column align-items-center">
-                    <div class="logo">Facebook</div>
+                    <div class="logo" style="text-decoration-color:#e3eee6">Facebook</div>
                   </div>
                 </div>
                 <div class="col">
@@ -682,9 +682,93 @@ margin-left: 10px; /* Adjust as needed */
 
  
 
+  <!--  creating   big  devigion  under reload more  div -->
+  
 
+  <style>
+    /* Main Division */
+    .main-division {
+      border: 1px solid #ddd;
+      padding: 20px;
+    }
 
+    /* Top Horizontal Sub-Division */
+    .top-sub-division {
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 10px;
+    }
 
+    /* Middle Horizontal Sub-Division */
+    .middle-sub-division {
+      display: flex;
+      flex-wrap: wrap; /* Added for responsiveness */
+      margin-bottom: 10px;
+    }
+
+    .left-sub-division {
+      width: 100%; /* Full width on small screens */
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    .right-sub-division {
+      width: 100%; /* Full width on small screens */
+      padding-top: 10px;
+    }
+
+    /* Bottom Horizontal Sub-Division */
+    .bottom-sub-division {
+      border-top: 1px solid #ddd;
+      margin-top: 10px;
+    }
+
+    /* Media Queries for Responsiveness */
+    @media (min-width: 768px) {
+      .left-sub-division {
+        width: 60%; /* 60% width on screens wider than 768px */
+        border-bottom: none;
+        padding-bottom: 0;
+        height:auto;
+      }
+
+      .right-sub-division {
+        width: 40%; /* 40% width on screens wider than 768px */
+        padding-top: 0;
+        height:auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="main-division">
+    <!-- Top Horizontal Sub-Division -->
+    <div class="top-sub-division">
+      <!-- Content for the top sub-division goes here -->
+      <p>Top Sub-Division Content</p>
+    </div>
+
+    <!-- Middle Horizontal Sub-Division -->
+    <div class="middle-sub-division">
+      <!-- Left Sub-Division with 60% width -->
+      <div class="left-sub-division">
+        <!-- Content for the left sub-division goes here -->
+        <p>Left Sub-Division Content</p>
+      </div>
+
+      <!-- Right Sub-Division with 40% width -->
+      <div class="right-sub-division">
+        <!-- Content for the right sub-division goes here -->
+        <p>Right Sub-Division Content</p>
+      </div>
+    </div>
+
+    <!-- Bottom Horizontal Sub-Division -->
+    <div class="bottom-sub-division">
+      <!-- Content for the bottom sub-division goes here -->
+      <p>Bottom Sub-Division Content</p>
+    </div>
+  </div>
 
 
 
@@ -855,9 +939,9 @@ margin-left: 10px; /* Adjust as needed */
 
 
     
-        
+      
 
-      <footer class="bg-dark text-white text-center py-3">
+<footer class="bg-dark text-white text-center py-3">
         <div class="container">
             <!-- Your footer content goes here -->
             <div class="row">

@@ -118,7 +118,7 @@
     
     /* Navigation styles */
     nav {
-        background-color: #555;
+        background-color: #e9dd0afc;
         padding: 10px;
     }
     
@@ -179,6 +179,7 @@
     .logo {
         max-width: 50px; /* Adjust the size of the logo as needed */
         margin-right: 10px;
+        text-decoration-color: #fff;
     }
     
     .search-input {
