@@ -166,6 +166,7 @@
         content: "";
         clear: both;
         display: table;
+        text-colo
     }
     
     .search-container {
@@ -179,7 +180,7 @@
     .logo {
         max-width: 50px; /* Adjust the size of the logo as needed */
         margin-right: 10px;
-        text-decoration-color: #fff;
+        text-decoration-color: ;
     }
     
     .search-input {
@@ -409,21 +410,20 @@ margin-left: 10px; /* Adjust as needed */
     height:6px;
     width: 140px; /* Set the desired width */
     margin: auto; /* Center the div horizontally */
-    border: 2px solid #000; /* Initial border color (black) */
+    border: 2px solid hsl(185, 67%, 96%); /* Initial border color (black) */
     padding: 20px;
     transition: border-color 0.3s; /* Add smooth transition for the border color */
   }
 
   .custom-box:hover {
     border-color: #000; /* Change border color to black on hover */
-    background-color: #0b0808; /* Optional: Add a shaded background on hover */
+    background-color: #fffffc; /* Optional: Add a shaded background on hover */
   }
   .paragraph-padding{
     margin-top: -9px; /* Set margin for the top */
     margin-bottom: 5px; /* Set margin for the bottom */
     }
-
-
+   
 
 
     .serial-number {
