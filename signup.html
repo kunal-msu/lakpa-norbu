@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <title>Your Interface</title>
+  <style>
+    /* Add your custom styles here if needed */
+    .interface-container {
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .social-buttons a {
+      width: 100%;
+      display: block; /* Ensures the entire button area is clickable */
+    }
+
+    .social-buttons button {
+      width: 100%;
+    }
+
+    .social-buttons i {
+      margin-right: 10px;
+    }
+    .style1{
+        float:left;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="interface-container">
+    <h2>SIGN UP</h2>
+    <p>Show off your genius</p>
+
+    <div class="social-buttons">
+      <div class="mb-3">
+        <a href="#" class="btn btn-primary"><i class="fab fa-facebook"></i>Sign in with Facebook</a>
+      </div>
+
+      <div class="mb-3">
+        <a href="#" class="btn btn-danger"><i class="fab fa-google"></i>Sign in with Google</a>
+      </div>
+
+      
+      <div>
+        <a href="#" class="btn btn-info"><i class="fab fa-twitter"></i>Sign in with Twitter</a>
+      </div>
+    </div>
+
+    <!-- Signup Form -->
+    <form>
+      <div class="mb-3">
+       <div class="style1"> <label for="signupEmail" class="form-label">Email address</label></div>
+        <input type="email" class="form-control" id="signupEmail" aria-describedby="emailHelp" placeholder="Enter your email">
+       
+      </div>
+
+      <div class="mb-3">
+        <div class="style1" ><label for="signupPassword" class="form-label">Password</label></div>
+        <input type="password" class="form-control" id="signupPassword" placeholder="Create a password">
+      </div>
+
+      <div class="style1"><button type="submit" class="btn btn-success">LOGIN</button>
+    </form>
+  
+  </div>
+  </body>
+  </html> 
