@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox</title>
+    <link rel="stylesheet" href="connect.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            height: 10vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item {
+            height: 42px;
+            width: 92px;
+            border: 2px solid hwb(63 9% 7% / 0.812);
+            margin: 4px;
+            background-color: hwb(63 9% 7% / 0.812);
+            flex-flow: row wrap;
+            column-gap: 1px;
+        }
+
+        .lakpa {
+            flex: 1;
+            text-align: center;
+        }
+
+        .example {
+            display: flex;
+            align-items: center;
+        }
+
+        input {
+            width: 100%;
+            border: none;
+            padding: 8px;
+        }
+
+        .sign_in {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .button-signin {
+            background-color: #ffffff;
+            border: 2px solid hwb(63 9% 7% / 0.812);
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        h5 {
+            margin: 0;
+        }
+    </style>
+</head>
+
+
+    <main>
+        <div style="background-color: hwb(63 9% 7% / 0.812);">
+            <div class="container">
+                <div class="item lakpa">
+                    <form class="example" action="">
+                        <div>
+                            <input type="text" placeholder="Search lyrics & more" name="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </form>
+                </div>
+                <div class="item lakpa">
+                    <h1>GENIUS</h1>
+                </div>
+                <div class="item"></div>
+                <div class="item lakpa">
+                    <div class="sign_in">
+                        <button class="button-signin" onclick="location.href='#signin'"><a href="signin.html"><h5>SIGN IN</h5></a></button>
+                        <button class="button-signin" onclick="location.href='#signup'"><a href="signup.html"><h5>SIGN UP</h5></a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox</title>
+    <link rel="stylesheet" href="connect.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            height: 10vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item {
+            height: 42px;
+            width: 92px;
+            border: 2px solid hwb(63 9% 7% / 0.812);
+            margin: 4px;
+            background-color: hwb(63 9% 7% / 0.812);
+            flex-flow: row wrap;
+            column-gap: 1px;
+        }
+
+        .lakpa {
+            flex: 1;
+            display: flex;
+            align-items: center; /* Align text vertically in the lakpa div */
+            justify-content: center; /* Align text horizontally in the lakpa div */
+        }
+
+        .example {
+            display: flex;
+            align-items: center;
+        }
+
+        input {
+            width: 100%;
+            border: none;
+            padding: 8px;
+        }
+
+        .sign_in {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .button-signin {
+            background-color: #ffffff;
+            border: 2px solid hwb(63 9% 7% / 0.812);
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        h5 {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <main>
+            <div style="background-color: hwb(63 9% 7% / 0.812);">
+                <div class="container">
+                    <div class="item lakpa">
+                        <form class="example" action="">
+                            <div>
+                                <input type="text" placeholder="Search lyrics & more" name="search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="item lakpa">
+                        <h1>GENIUS</h1>
+                    </div>
+                    <div class="item"></div>
+                    <div class="item lakpa">
+                        <div class="sign_in">
+                            <button class="button-signin" onclick="location.href='#signin'"><a href="signin.html"><h5>SIGN IN</h5></a></button>
+                            <button class="button-signin" onclick="location.href='#signup'"><a href="signup.html"><h5>SIGN UP</h5></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </nav>
+
+    <!-- Lower Division -->
+    <nav>
+        <div class="lower-division">
+            <!-- Navigation -->
+            <div class="container">
+                <!-- ... (your existing code for lower division) ... -->
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
+ -->

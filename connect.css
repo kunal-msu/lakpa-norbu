@@ -87,10 +87,11 @@
     }
     /* Style for the upper division of the header */
     .upper-division {
-        padding-top: 0px;
-        margin-right: 800px;
+        display:flex;
+        flex:2;
+        padding: -2px 0 -1px o;
         background-color:rgb(233, 216, 89)
-        h
+        
     }
      /*alignment  of a   text inside a header */
     
@@ -150,7 +151,7 @@
       form.example button {
         float: left;
         width: 40px;
-        padding: 10px;
+        padding: 10px 0 1px o;
         background: #23dffc;
         color: white;
         font-size: 17px;
