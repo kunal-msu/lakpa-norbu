@@ -250,23 +250,17 @@
                 position: relative;
                 text-align: center;
     }
+                                                                        /* CSSS FOR   10 LONG   HORIGENTAL  PLAYLIST  DEVIGION   BELOW   RELOAD    */
     
-    .long-div{
-        
-        margin-left: 12px; margin-right: 12px; padding-top: 8px; background-color: #1edbe9;height:80px;
-        background-color: rgb(254, 255, 255);
-        /* Top, Right, Bottom (bold), Left */
-        border-style: solid; /*makes  the  border  solid or  bold  */
-        border-color: #fcfcfc #fcffff #b9b5b5 #f3fbfb; /* Top, Right, Bottom (color), Left */
-        
-        
-    }
-    
-}
+
+
+
+
+
+
+ 
 /* adjusting  height  width of  */
-.img{ height: 90%;
-      width:17%;}
-    
+
 .marg-div{
     margin-left:-211px;
 
@@ -364,19 +358,7 @@
     margin-right: 18px;
   } 
 
-  .hover-effect{ 
-                 transition: background-color 0.3s; /* Add a smooth transition effect */
-}
-
-        
-
-        .hover-effect:hover {
-            background-color: lightcoral; /* Change to your desired hover background color */
-            flex: 1;
-            position: relative;
-            overflow: hidden;
-            cursor: pointer;
-            }
+  
   
 
      
