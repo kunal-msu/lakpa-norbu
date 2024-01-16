@@ -375,21 +375,46 @@ margin-left: 10px; /* Adjust as needed */
 }
 
 
-                /* creating css for  divigion in center,hover */
-.custom-box {
+
+
+                /* *********** LOAD MORE BUTTON*****(1)******/
+
+                .custom-box-1{
+
+                    height:6px;
+                    width: 140px; /* Set the desired width */
+                    margin: auto; /* Center the div horizontally */
+                    border: 2px solid  WHITE; /* Initial border color (black) */
+                    padding: 20px;
+                    transition: border-color 0.3s; /* Add smooth transition for the border color */
+                    text-decoration-color:rgb(227, 222, 222) ;
+                }
+                
+                .custom-box-1:hover {
+                    border-color: #000; /* Change border color to black on hover */
+                    background-color: #000000; /* Optional: Add a shaded background on hover */
+                    text-decoration-color: white;
+                }
+
+
+
+                /* *********** LOAD MORE BUTTON*****(2)******/
+.custom-box-2 {
 
     height:6px;
     width: 140px; /* Set the desired width */
     margin: auto; /* Center the div horizontally */
-    border: 2px solid hsl(185, 67%, 96%); /* Initial border color (black) */
+    border: 2px solid  WHITE; /* Initial border color (black) */
     padding: 20px;
     transition: border-color 0.3s; /* Add smooth transition for the border color */
-  }
+    text-decoration-color:white ;
+}
 
-  .custom-box:hover {
+  .custom-box-2:hover {
     border-color: #000; /* Change border color to black on hover */
     background-color: #fffffc; /* Optional: Add a shaded background on hover */
-  }
+        
+}
   .paragraph-padding{
     margin-top: -9px; /* Set margin for the top */
     margin-bottom: 5px; /* Set margin for the bottom */
@@ -401,4 +426,8 @@ margin-left: 10px; /* Adjust as needed */
     .serial-number {
         font-size: 2em;
         margin-right: 8px;
+      }
+      /* ****** adjusting   the  margin   of  VIDEOS GENIUS ORIGINAL SERIES***** */
+      .par{
+        margin: 19px -4px 15px 200px;
       }
