@@ -5,7 +5,8 @@
     body, h1, title-logo {
         margin: 0;
         padding: 0;
-    
+       
+        
     }
     
     
@@ -93,7 +94,7 @@
        top:40px;
        width:1400px;
        height: 38px;
-       text-decoration-color: white;
+       color: white;
     }
     .sud-div{
         height:2px;
@@ -154,7 +155,8 @@
     .logo {
         max-width: 50px; /* Adjust the size of the logo as needed */
         margin-right:45px;
-        text-decoration-color:white;
+        text-decoration-color:hwb(0 100% 0%);
+        
     }
     
     .search-input {
@@ -240,7 +242,7 @@
 }
     .coll{
         height:14px;
-        margin-right:0px 12px 0px 12px;
+        margin-right:0px 42px 0px 12px;
         
     }
     
@@ -341,9 +343,10 @@ align-items: center;
 }
 
 .line {                         /* inserting  line inside a text*/
-flex-grow: 1;
-height: 1px;
-background-color: #080807;
+flex-grow: 3;
+height: 1.8px;
+width: 29px;
+border:solid black;
 margin-left: 10px; /* Adjust as needed */
 }
 
