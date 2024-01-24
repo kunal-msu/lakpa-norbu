@@ -92,7 +92,7 @@
         font-family:'Calibri', sans-serif;
        position:absolute;
        top:40px;
-       width: 1261px ;
+       width:1400px;
        height: 38px;
        color: white;
     }
@@ -119,16 +119,8 @@
         height:4vh;
         width:2px;
     }
-
-
-/* ********************** increasing  the  ican width   ************ */
-    .increase-ican-width{
-        width:50px;
-    }
-
-
     
-    /* CSS ELEMENT FOR SEO SEARCH ENGIN OPTIMIZATION*/
+    /* CSS ELEMENT FOR SEO SWEARCH ENGIN OPTIMIZATION*/
     form.example input[type=text] {
        
         padding: 10px;
